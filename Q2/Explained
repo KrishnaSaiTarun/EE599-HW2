@@ -1,0 +1,8 @@
+Let us consider an example of integer array : a[] = {1, 2, 3, 4, 5, 6, 7}
+
+Here the sizeof(a) function returns the number of bytes taken by the array. 
+The sizeof(int) returns the number of bytes taken by an integer element. 
+
+So for getting the number of elements in the array we have to do: sizeof(a)/sizeof(int). Here size = 7.
+
+

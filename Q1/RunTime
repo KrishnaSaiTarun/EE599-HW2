@@ -1,0 +1,22 @@
+1. int Sum(int, int)
+
+ Tis operation returns an integer with complexity O(1)
+ 
+2. String Sum(string, string)
+
+	For simplicity lets assume one string has length m and the other n
+	
+	If we are returning a concatenated string it will be O(m + n)
+	
+3. String Sum(int, string) or String Sum(string, int)
+
+	let string length be n
+	and the number of digits in int be d. 
+	
+	We need O(d) time to convert int to string. 
+	
+	Then for concatention we will need O(d + n)
+	
+	So, O(d) + O(d + n) = O(d + n)
+	
+	
