@@ -1,0 +1,22 @@
+1. Swapping index of a string. 
+
+	The input is straight forward and we can directly access the indexes. the swapping operation takes O(1) time. 
+	
+2. reversing a string
+
+	Just used an extra char but apart from that did it in place.
+	The string is traversed from left and rigth towards center. Its one pass
+	
+	Let n be the length of the string. 
+	
+	So the time complexity is O(n).
+	
+3. lower case conversion. 
+
+	We used the function to lower. 
+	If it is an upper case alphabet it will convert to lower by changing the ascii value. This is constant time operation. 
+	If it is not an upper case alphabet, it will just ignore it. 
+	
+	This is done for all the letters, so its a one pass algo. 
+	
+	The time complexity is O(n) assuming that the n is the length of the string!
