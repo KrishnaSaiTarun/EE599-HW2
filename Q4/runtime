@@ -1,0 +1,5 @@
+for swapping 2 integers we are using pass by reference. 
+
+We are just using 1 extra temp variable so space complexity is O(1)
+
+And the operations are basic assignments and the run time complexity is O(1)
