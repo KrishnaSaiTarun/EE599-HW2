@@ -14,3 +14,41 @@
    	Traversing ---> O(n)    total traverses = n
    	
    	Ans ===> n * O(n) = O(n^2)
+   	
+2. Reversing a vector.
+
+	We have two pointers one from the front and one from the back. 
+	Its just one pass and swapping and it takes O(n).
+	
+3. Removing ODD number. 
+
+	We have used another vector to store even numbers for help.
+	
+	Adding these to the new vector takes O(n) time
+	Then Adding them back in order into the original vector takes O(n) time. 
+	Then deleting the remaining elements take O(n) time. 
+	
+	Time complexity = O(n);
+	
+4. Vector Concatenation 
+
+	Let vector 1 be of size n 
+	Let vector 2 be of size m
+	
+	We are just pushing one after the other. The total time will be O(n + m).
+	
+5. Intersection of 2 vectors. 
+
+	Let vector 1 be of sixe n 
+	Let vector 2 be of size m 
+	
+	To sort each vector we take O(nlogn) and O(mlogm) respectively.
+	
+	Using set_intersection takes O(m + n) as its a linear pass on both vectors checking each element (They are sorted!!)
+	
+	so the time complexity will be max(O(nlogn), O(mlogm)).
+	
+	
+	
+	
+	
