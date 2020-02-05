@@ -1,0 +1,16 @@
+1. For removing duplicates using set:
+
+	iterate through the vector and insert the elements into the set: O(n)
+	Iterate throught the set and insert in vector : O(n)
+	Delete the remaining part of the vector : O(n)
+	
+		Ans =>> O(n) + O(n) + O(n) = O(n)
+		
+   For removing duplicates without using set:
+   
+   	We are using the concept where we rempve all the duplicates of each element one after the other. 
+   	This way to remove one element's duplicates we have to traverse the vector everty time.
+   	
+   	Traversing ---> O(n)    total traverses = n
+   	
+   	Ans ===> n * O(n) = O(n^2)
