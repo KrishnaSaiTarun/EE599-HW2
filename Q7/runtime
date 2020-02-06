@@ -1,0 +1,8 @@
+Mapping 
+
+	The algorithm runs through both the strings and adds every distimct element into the map. 
+	When an key is encountered that is already there, then if the value is not matching then mapping is not possible. 
+	
+	We go through the strings once and the operations on map are considered O(1). 
+	
+	So it is a one pass on the string and the time complexity is O(n) where n is the length of the string. (Both strings need to be of same length else mapping not possible.)
