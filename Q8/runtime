@@ -1,0 +1,11 @@
+The algorithm for flinding median:
+
+	Sort the vector and find the mid point. 
+	
+	Sorting ==> O(nlogn) assuming vector of size n. 
+	
+	Then flipping is basic swapping of elements and is a one pass. once on the left of median and one on the right of median. 
+	
+	Therefore, the flipping part is just O(n).
+	
+	===> O(nlogn) + O(n) = O(nlogn).  
