@@ -1,0 +1,11 @@
+1. palindrome
+
+	The algorithm just chackes if the characters are the same in the backward and the forward direction and is one pass
+	
+	===> O(n) where n is the length of the string!
+	
+2. Approximate palindrome 
+
+	The algorithm just chackes if the characters are the same in the backward and the forward direction and skips the unwanted characters. It is one pass
+	
+	===> O(n) where n is the length of the string!
